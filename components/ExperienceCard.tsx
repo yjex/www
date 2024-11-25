@@ -40,7 +40,7 @@ const ExperienceCard = ({
 export default function ExperienceCards() {
     return (
         <div 
-        className="flex justify-center items-center">
+        className="flex justify-center items-center w-full">
             <div 
                 className="grid lg:grid-cols-3 md:grid-cols-2"
                 style={{ width: "1300px" }}
