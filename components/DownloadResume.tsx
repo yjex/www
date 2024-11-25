@@ -9,7 +9,7 @@ export default function DownloadFile () {
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 p-3 bg-[#60212E] text-white rounded-full hover:bg-[#C49895] z-20"
     >
-        <FileUser className="h-10 w-10" />
+        <FileUser className="lg:h-10 lg:w-10 h-5 w-5 " />
     </a>
   );
 };
