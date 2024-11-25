@@ -24,7 +24,7 @@ export default function AboutMe() {
 
                         </p>
                         <div className='font-serif text-lg text-justify'>
-                            <span className='font-bold'>Current Side Quest: </span><Badge className="font-sans text-base bg-[#60212E] hover:bg-[#60212E] hover:underline">Web Development</Badge>
+                            <span className='font-bold'>Current Side Quest: </span><Badge className="font-sans text-base bg-[#60212E] hover:bg-[#60212E]">Web Development</Badge>
                         </div>
                     </div>
                 </div>
