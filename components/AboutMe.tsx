@@ -12,7 +12,7 @@ export default function AboutMe() {
                 <Image src={about_me_banner} width={500} alt={"certifications banner"} />
                 <div className='flex flex-col w-full lg:flex-row justify-center items-center text-xl'>
                     <Image src={about_me_poster} width={500} alt={"about me poster"} />
-                    <div className='flex flex-col w-full lg:w-1/3 gap-4 px-8'>
+                    <div className='flex flex-col w-full lg:w-2/5 gap-4 px-8'>
                         <div className='font-bold text-[#60212E]' style={{fontFamily: "Courier, monospace"}}>
                             <Typewriter words={["Hi! I'm Alexis, welcome to my site!"]} typeSpeed={70} deleteSpeed={50} cursor={true} cursorBlinking={true} loop={0}/>
                         </div>
