@@ -1,10 +1,9 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 "use client"
 import { FunctionComponent } from "react";
 
 interface Skill {
     skill: string,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     icon: FunctionComponent<any>;
 }
 
