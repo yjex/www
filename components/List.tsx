@@ -2,8 +2,8 @@
 import { FunctionComponent } from "react";
 
 interface Skill {
-    skill: string,
-    icon: FunctionComponent<Record<string, never>>;
+    skill: string;
+    icon: FunctionComponent<any>;
 }
 
 export default function List({skillList, title}:{skillList: Skill[], title: string}){
