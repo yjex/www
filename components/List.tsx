@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 
 interface Skill {
     skill: string,
-    icon: FunctionComponent<{}>;
+    icon: FunctionComponent<Record<string, never>>;
 }
 
 export default function List({skillList, title}:{skillList: Skill[], title: string}){
