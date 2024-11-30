@@ -2,7 +2,7 @@
 import { FunctionComponent } from "react";
 
 interface Skill {
-    skill: string;
+    skill: string,
     icon: FunctionComponent<any>;
 }
 
