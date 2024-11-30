@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import about_me_banner from '@/images/icons/about_me_banner.png'
 import about_me_poster from '@/images/logos/intro_poster.png'
-import FootstepDivider from './FootstepDivider'
 import { Typewriter } from 'nextjs-simple-typewriter'
 import { Badge } from '@/components/ui/badge'
 

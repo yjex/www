@@ -1,10 +1,9 @@
 "use client"
-import Image, { StaticImageData } from "next/image";
 import { FunctionComponent } from "react";
 
 interface Skill {
     skill: string,
-    icon: FunctionComponent<any>;
+    icon: FunctionComponent<{}>;
 }
 
 export default function List({skillList, title}:{skillList: Skill[], title: string}){
