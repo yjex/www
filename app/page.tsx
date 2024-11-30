@@ -10,6 +10,7 @@ import Experience from '@/components/Experience'
 import AboutMe from "@/components/AboutMe"
 import paper_background from "@/images/layout/watercolor_paper.png"
 import DownloadFile from "@/components/DownloadResume";
+import Technologies from '@/components/Technologies'
 
 export default function Home() {
   return (
@@ -21,8 +22,12 @@ export default function Home() {
       <DownloadFile />
       <BottomSection />
 
-      <div id="about-me">
+      <div id="about-me" className="flex flex-col items-center my-8">
         <AboutMe />
+      </div>
+
+      <div id="technologies" className="flex flex-col items-center my-8 ">
+        <Technologies />
       </div>
 
       <div id="experience">

@@ -6,6 +6,7 @@ import FootstepDivider from './FootstepDivider'
 import { Typewriter } from 'nextjs-simple-typewriter'
 import { Badge } from '@/components/ui/badge'
 
+
 export default function AboutMe() {
     return(
         <div className='flex flex-col items-center'>
@@ -28,7 +29,6 @@ export default function AboutMe() {
                         </div>
                     </div>
                 </div>
-            <FootstepDivider />
         </div>
     
     )
