@@ -11,7 +11,7 @@ export default function Technologies() {
     return(
         <div className='flex flex-col items-center'>
             <Image src={technologies_banner} width={500} alt="technology banner"/>
-            <div className="flex flex-row w-full max-w-4xl justify-between">
+            <div className="flex flex-col justify-center md:flex-row w-full max-w-4xl justify-between">
                 <List title = {"Front-End"} skillList={frontendArray} />
                 <List title = {"Back-end"} skillList={backendArray} />
                 <List title = {"Design"} skillList={designArray} />
