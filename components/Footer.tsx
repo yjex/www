@@ -6,7 +6,7 @@ import logo from "@/images/logos/new_logo_white.png"
 export default function Footer() {
     return (
         <footer className="relative" id="footer">
-            <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-1/3 z-5">
+            <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-1/3 hidden lg:block z-5">
                 <Image src={logo} width={150} height={100} alt={"my logo in white"}/>
             </div>
             <div className="flex justify-between bg-[#60212E] text-[white] p-10 font-serif">
