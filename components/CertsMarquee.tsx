@@ -7,6 +7,7 @@ import codedexJs from "@/images/certificates/codedex_javascript_cert.png";
 import codedexPython from "@/images/certificates/codedex_python_cert.png";
 import datacampPandas from "@/images/certificates/datacamp_pandas_cert.png";
 import udemySql from "@/images/certificates/sql_completion_udemy.png";
+import googleDA from '@/images/certificates/google_dataanalytics.png'
 import Image, {StaticImageData} from 'next/image'
 import Marquee from "@/components/ui/marquee";
 import SkillList from '@/components/SkillList'
@@ -53,6 +54,12 @@ const certs = [
         img: udemySql,
         body: "Learning to use SQL quickly and effectively",
         skills: ["SQL"]
+    },
+    {
+        name:"Google - Data Analytics Professional",
+        img: googleDA,
+        body: "Mastering Data Analytics - including how to use SQL, R, and Tableau",
+        skills: ["R", "SQL", "Tableau"]
     }
 ]
 
